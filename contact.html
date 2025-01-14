@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Submission</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <form id="userForm">
+            <label for="fname">First Name:</label><br>
+            <input type="text" id="fname" name="fname" required><br>
+            <label for="lastname">Last Name:</label><br>
+            <input type="text" id="lastname" name="lastname" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>            
+            <label for="age">Age:</label><br>
+            <input type="number" id="age" name="age" required><br>
+            <label for="Qualification">Qualification:</label><br>
+            <input type="text" id="Qualification" name="Qualification"><br>
+        </label>
+            <button type="submit">Submit</button>
+        </form>
+        <p id="successMessage" class="success-message" style="display: none;">Form submitted successfully!</p>
+    </div>  
+    <script src="script.js"></script>
+</body>
+</html>
